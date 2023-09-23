@@ -161,24 +161,23 @@ cask 'youtube-to-mp3'		# Downloads music from playlists or channels | https://ww
 cask 'ytmdesktop-youtube-music'					# YouTube music client | https://github.com/ytmdesktop/ytmdesktop
 
 # Personal Applications
-cask 'standard-notes' 				# Encrypted synced notes
-cask 'ledger-live'    				# Crypto hardware wallet manager
-cask 'trezor-suite'					# Companion app for the Trezor hardware wallet | https://suite.trezor.io/
-cask 'trezor-bridge'					# Facilitates communication between the Trezor device and supported browsers | https://wallet.trezor.io/
-cask 'authy' 						# Two-factor authentication software
 cask 'mountain-duck'  				# Mount remote storage locations
-cask 'protonmail-bridge' 			# Decrypt ProtonMail emails
-cask 'protonvpn'      				# Client app for ProtonVPN
 cask 'audiobook-builder' 			# Turn audio CDs and files into audiobooks
 cask 'avg-antivirus'				# Antivirus software
 cask 'balenaetcher'					# Tool to flash OS images to SD cards & USB drives
-cask 'battery-buddy'				# Replacement of the default battery indicator in the menu bar
-cask 'bettertouchtool'				# Tool to customize input devices and automate computer systems
 cask 'google-drive'					# 
-cask 'vitamin-r'					# Collection of productivity tools and techniques | https://www.publicspace.net/Vitamin-R/
+cask 'torguard'						# VPN client | https://torguard.net/
+
+## Personal Applications > Crypto related
+cask 'ledger-live'    				# Crypto hardware wallet manager
+cask 'trezor-suite'					# Companion app for the Trezor hardware wallet | https://suite.trezor.io/
+cask 'trezor-bridge'				# Facilitates communication between the Trezor device and supported browsers | https://wallet.trezor.io/
+cask 'authy' 						# Two-factor authentication software
 
 # Productivity Apps
 cask 'vym' 							# Generate and manipulate maps which show your thoughts | https://sourceforge.net/projects/vym/
+cask 'bettertouchtool'				# Tool to customize input devices and automate computer systems
+cask 'vitamin-r'					# Collection of productivity tools and techniques | https://www.publicspace.net/Vitamin-R/
 
 # Browsers
 cask 'firefox'
@@ -191,6 +190,7 @@ cask 'webtorrent'
 
 # Optionals 
 cask 'taskpaper' 					# App to make lists and help with organization | https://www.taskpaper.com/
+cask 'standard-notes' 				# Encrypted synced notes
 
 # Just for fun 
 cask 'windows95' 						# Electron Windows 95 | https://github.com/felixrieseberg/windows95
@@ -246,6 +246,7 @@ cask 'find-empty-folders'	# Finds empty folders
 cask 'findergo'				# Open terminal quickly from Finder | https://github.com/onmyway133/FinderGo
 cask 'gdisk' 				# Disk partitioning tool | https://sourceforge.net/projects/gptfdisk/
 cask 'uninstallpkg'			# PKG software package uninstall tool | https://www.corecode.io/uninstallpkg/
+cask 'battery-buddy'		# Replacement of the default battery indicator in the menu bar
 
 #############################################################
 # Network and Security Stuff (MR)                           #
@@ -260,17 +261,19 @@ cask 'owasp-zap'      # Web app security scanner
 cask 'wireshark'      # Network analyzer + packet capture
 
 # Security Utilities and Data Encryption
-brew 'bcrypt'        	# Encryption utility, using blowfish
-brew 'borgbackup'    	# Encrypted, deduplicated backups
-brew 'clamav'        	# Open source virus scanning suite
-brew 'dnscrypt-proxy'	# Proxy for using encrypted DNS
-cask 'gpg-suite'     	# PGP encryption for emails and files
-brew 'git-crypt'     	# Transparent encryption for git repos
-brew 'lynis'         	# Scan system for common security issues
-brew 'openssl'       	# Cryptography and SSL/TLS Toolkit
-brew 'rkhunter'      	# Search / detect potential root kits
-cask 'veracrypt'     	# File and volume encryption
-cask 'tor-browser'		# Web browser focusing on security | https://www.torproject.org/
+brew 'bcrypt'        			# Encryption utility, using blowfish
+brew 'borgbackup'    			# Encrypted, deduplicated backups
+brew 'clamav'        			# Open source virus scanning suite
+brew 'dnscrypt-proxy'			# Proxy for using encrypted DNS
+cask 'gpg-suite'     			# PGP encryption for emails and files
+brew 'git-crypt'     			# Transparent encryption for git repos
+brew 'lynis'         			# Scan system for common security issues
+brew 'openssl'       			# Cryptography and SSL/TLS Toolkit
+brew 'rkhunter'      			# Search / detect potential root kits
+cask 'veracrypt'     			# File and volume encryption
+cask 'tor-browser'				# Web browser focusing on security | https://www.torproject.org/
+cask 'protonmail-bridge' 		# Decrypt ProtonMail emails
+cask 'protonvpn'      			# Client app for ProtonVPN
 
 # Security & Pen Testing 
 cask 'creepy' Geolocation OSINT tool
