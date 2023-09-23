@@ -65,6 +65,8 @@ cask 'postman'        		# HTTP API testing app
 cask 'sourcetree'     		# Git visual client
 cask 'visual-studio-code' 	# Code editor
 cask 'diffmerge'			# Visually compare and merge files
+cask 'githubpulse'			# Statusbar app to help you remember to contribute every day on Github
+cask 'macdown'				# Open-source Markdown editor | https://macdown.uranusjr.com/
 
 # iOS Development
 brew 'mint'			  		# Swift CLI dependencies manager
@@ -72,6 +74,11 @@ brew "carthage"     		# Xcode dependencies management
 brew "copilot"				# Github copilot
 cask 'copilot-for-xcode'	# Xcode extension for Github Copilot
 cask 'devcleaner'			# Reclaim tens of gigabytes of your storage used for various Xcode cache
+cask 'firebase-admin'		# https://firebaseadmin.com/
+cask 'github'				# Desktop client for GitHub repositories
+cask 'xcodes'     			# Download, extract and install Xcode through CLI
+cask "mockoon"				# Design and run mock REST APIs
+cask "periphery"	
 
 # Development Langs, Compilers, Package Managers and SDKs
 brew 'openjdk'        # Java development kit
@@ -94,11 +101,6 @@ cask 'dbeaver-community'	# Universal database tool and SQL client
 cask 'obs'          				# Screencasting / recording
 cask 'bettertouchtool'				# Tool to customize input devices and automate computer systems
 
-# Dev Apps - iOS 
-cask 'xcodes'     	# Download, extract and install Xcode through CLI
-cask "mockoon"		# Design and run mock REST APIs
-cask "periphery"	
-
 # Media
 cask 'spotify', args: { require_sha: false } # Propietary music streaming
 brew 'pandoc'       # Universal file converter
@@ -108,6 +110,7 @@ cask 'firefox'
 cask 'chromium'
 cask 'orion'
 cask 'brave-browser'
+cask 'google-chrome'
 
 #############################################################
 # MacOS-Specific Stuff                                      #

@@ -102,12 +102,16 @@ brew 'pv'           # Pipe viewer, with animation options
 
 # Development Apps
 cask 'boop'           		# Text transformation tool
-brew 'gradle'         		# Build automation for Java
 cask 'iterm2'         		# Better terminal emulator
 cask 'postman'        		# HTTP API testing app
 cask 'sourcetree'     		# Git visual client
 cask 'visual-studio-code' 	# Code editor
 cask 'diffmerge'			# Visually compare and merge files
+cask 'githubpulse'			# Statusbar app to help you remember to contribute every day on Github
+cask 'gitkraken-cli'		# CLI for GitKraken
+cask 'firebase-admin'		# https://firebaseadmin.com/
+cask 'github'				# Desktop client for GitHub repositories
+cask 'macdown'				# Open-source Markdown editor | https://macdown.uranusjr.com/
 
 # iOS Development
 brew 'mint'			  		# Swift CLI dependencies manager
@@ -115,8 +119,7 @@ brew "carthage"     		# Xcode dependencies management
 brew "copilot"				# Github copilot
 cask 'copilot-for-xcode'	# Xcode extension for Github Copilot
 cask 'devcleaner'			# Reclaim tens of gigabytes of your storage used for various Xcode cache
-cask 'firebase-admin'		# https://firebaseadmin.com/
-cask 'github'				# Desktop client for GitHub repositories
+
 
 # Blockchain Development 
 cask 'ganache'				# Personal blockchain for Ethereum development
@@ -164,6 +167,7 @@ cask 'creepy' Geolocation OSINT tool
 # Creativity
 cask 'figma' 
 cask 'figmadaemon' 
+cask 'netdownloadhelpercoapp' # Allows video downloads from the Web | https://www.downloadhelper.net/install-coapp
 
 # Media
 cask 'spotify', args: { require_sha: false } # Propietary music streaming
@@ -181,6 +185,7 @@ cask 'avg-antivirus'				# Antivirus software
 cask 'balenaetcher'					# Tool to flash OS images to SD cards & USB drives
 cask 'battery-buddy'				# Replacement of the default battery indicator in the menu bar
 cask 'bettertouchtool'				# Tool to customize input devices and automate computer systems
+cask 'google-drive'					# 
 
 # Browsers
 cask 'firefox'
@@ -188,6 +193,8 @@ cask 'chromium'
 cask 'orion'
 cask 'brave-browser'
 cask 'duckduckgo'
+cask 'google-chrome'
+cask 'webtorrent' 
 
 #############################################################
 # MacOS-Specific Stuff                                      #
