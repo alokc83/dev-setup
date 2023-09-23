@@ -178,6 +178,11 @@ cask 'authy' 						# Two-factor authentication software
 cask 'vym' 							# Generate and manipulate maps which show your thoughts | https://sourceforge.net/projects/vym/
 cask 'bettertouchtool'				# Tool to customize input devices and automate computer systems
 cask 'vitamin-r'					# Collection of productivity tools and techniques | https://www.publicspace.net/Vitamin-R/
+cask 'tomatobar'					# Menu bar pomodoro timer | https://github.com/ivoronin/TomatoBar
+cask 'todoist'						# To-do list | https://todoist.com/home
+
+# System 
+cask 'taskexplorer'					# Tool to explore all the running tasks (processes) | https://objective-see.com/products/taskexplorer.html
 
 # Browsers
 cask 'firefox'

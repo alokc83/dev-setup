@@ -98,9 +98,11 @@ cask 'dbeaver-community'	# Universal database tool and SQL client
 # Desktop Applications                                      #
 #############################################################
 
-# Misc
-cask 'obs'          				# Screencasting / recording
+# Productivity Apps
+cask 'vym' 							# Generate and manipulate maps which show your thoughts | https://sourceforge.net/projects/vym/
 cask 'bettertouchtool'				# Tool to customize input devices and automate computer systems
+cask 'vitamin-r'					# Collection of productivity tools and techniques | https://www.publicspace.net/Vitamin-R/
+cask 'tomatobar'						# Menu bar pomodoro timer | https://github.com/ivoronin/TomatoBar
 
 # Media
 cask 'spotify', args: { require_sha: false } # Propietary music streaming
