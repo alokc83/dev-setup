@@ -180,6 +180,8 @@ cask 'bettertouchtool'				# Tool to customize input devices and automate compute
 cask 'vitamin-r'					# Collection of productivity tools and techniques | https://www.publicspace.net/Vitamin-R/
 cask 'tomatobar'					# Menu bar pomodoro timer | https://github.com/ivoronin/TomatoBar
 cask 'todoist'						# To-do list | https://todoist.com/home
+#cask 'taskwarrior-pomodoro'			# Taskwarrior-Pomodoro | https://github.com/coddingtonbear/taskwarrior-pomodoro | $iForeked
+brew 'taskwarrior-tui'				# Terminal user interface for taskwarrior | https://github.com/kdheepak/taskwarrior-tui
 
 # System 
 cask 'taskexplorer'					# Tool to explore all the running tasks (processes) | https://objective-see.com/products/taskexplorer.html
@@ -192,6 +194,9 @@ cask 'brave-browser'
 cask 'duckduckgo'
 cask 'google-chrome'
 cask 'webtorrent' 
+
+# Coomunication 
+cask 'slack'			# Team communication and collaboration software | https://slack.com/
 
 # Optionals 
 cask 'taskpaper' 					# App to make lists and help with organization | https://www.taskpaper.com/
