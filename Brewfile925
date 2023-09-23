@@ -66,14 +66,13 @@ cask 'sourcetree'     # Git visual client
 cask 'visual-studio-code' # Code editor
 
 # Development Langs, Compilers, Package Managers and SDKs
-brew "carthage"     	# Xcode dependencies management
-brew "copilot"			# Github copilot
-
-brew 'node'           # Node.js
-brew 'nvm'            # Switching node versions
 brew 'openjdk'        # Java development kit
 brew 'python'         # Python interpreter
-brew 'mint'			  # Swift CLI dependencies manager
+
+# iOS Development
+brew 'mint'			  	# Swift CLI dependencies manager
+brew "carthage"     	# Xcode dependencies management
+brew "copilot"			# Github copilot
 
 # Development Utils
 brew 'gh'             		# Interact with GitHub PRs, issues, repos
@@ -88,7 +87,7 @@ brew 'tig'            		# Text-mode interface for git
 # Creativity
 cask 'obs'          # Screencasting / recording
 
-# Dev Apps 
+# Dev Apps - iOS 
 cask 'xcodes'     	# Download, extract and install Xcode through CLI
 cask "mockoon"		# Design and run mock REST APIs
 cask "periphery"	
@@ -113,17 +112,6 @@ cask 'font-hack'
 cask 'font-inconsolata'
 cask 'font-meslo-lg-nerd-font'
 
-# Mac OS Quick-Look Plugins
-cask 'qlcolorcode'    # QL for code with highlighting
-cask 'qlimagesize'    # QL for size info for images
-cask 'qlmarkdown'     # QL for markdown files
-cask 'qlprettypatch'  # QL for patch / diff files
-cask 'qlstephen'      # QL for dev text files
-cask 'qlvideo'        # QL for video formats
-cask 'quicklook-csv'  # QL for tables in CSV format
-cask 'quicklook-json', args: { require_sha: false } # QL for JSON, with trees
-cask 'quicklookapk',   args: { require_sha: false } # QL for Android APKs
-cask 'webpquicklook',  args: { require_sha: false } # QL for WebP image files
 
 # Mac OS Mods and Imrovments
 cask 'alt-tab'        # Much better alt-tab window switcher
@@ -142,10 +130,10 @@ cask 'santa'          # Binary authorization for security
 cask 'shottr'         # Better screenshot utility
 brew 'skhd'           # Hotkey daemon for macOS
 cask 'stats'          # System resource usage in menubar
-brew 'yabai'          # Tiling window manager
 
 # Mac OS Utility Apps
 cask 'coteditor'      # Just a simple plain-text editor
 cask 'keka'           # File archiver and extractor
+cask 'sublime-text' #sublime text editor
 
 # EOF
