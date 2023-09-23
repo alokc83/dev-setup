@@ -101,23 +101,31 @@ brew 'pv'           # Pipe viewer, with animation options
 #############################################################
 
 # Development Apps
-cask 'boop'           # Text transformation tool
-brew 'gradle'         # Build automation for Java
-cask 'iterm2'         # Better terminal emulator
-cask 'postman'        # HTTP API testing app
-cask 'sourcetree'     # Git visual client
-cask 'visual-studio-code' # Code editor
+cask 'boop'           		# Text transformation tool
+brew 'gradle'         		# Build automation for Java
+cask 'iterm2'         		# Better terminal emulator
+cask 'postman'        		# HTTP API testing app
+cask 'sourcetree'     		# Git visual client
+cask 'visual-studio-code' 	# Code editor
+cask 'diffmerge'			# Visually compare and merge files
+
+# iOS Development
+brew 'mint'			  		# Swift CLI dependencies manager
+brew "carthage"     		# Xcode dependencies management
+brew "copilot"				# Github copilot
+cask 'copilot-for-xcode'	# Xcode extension for Github Copilot
+cask 'devcleaner'			# Reclaim tens of gigabytes of your storage used for various Xcode cache
+cask 'firebase-admin'		# https://firebaseadmin.com/
+cask 'github'				# Desktop client for GitHub repositories
+
+# Blockchain Development 
+cask 'ganache'				# Personal blockchain for Ethereum development
 
 # Development Langs, Compilers, Package Managers and SDKs
-brew "carthage"     	# Xcode dependencies management
-brew "copilot"			# Github copilot
-
 brew 'node'           # Node.js
 brew 'nvm'            # Switching node versions
 brew 'openjdk'        # Java development kit
 brew 'python'         # Python interpreter
-brew 'rust'           # Rust language
-cask 'android-sdk'    # Android software dev kit
 
 # Development Utils
 brew 'gh'             # Interact with GitHub PRs, issues, repos
@@ -146,17 +154,16 @@ brew 'openssl'        # Cryptography and SSL/TLS Toolkit
 brew 'rkhunter'       # Search / detect potential root kits
 cask 'veracrypt'      # File and volume encryption
 
+# Security & Pen Testing 
+cask 'creepy' Geolocation OSINT tool
+
 #############################################################
 # Desktop Applications                                      #
 #############################################################
 
 # Creativity
-cask 'audacity'     # Audio editor / recorder
-cask 'gimp'         # Photo editor
-brew 'handbrake'    # Video transcoder
-cask 'inkscape'     # Vector editor
-cask 'obs'          # Screencasting / recording
-cask 'shotcut'      # Video editor
+cask 'figma' 
+cask 'figmadaemon' 
 
 # Media
 cask 'spotify', args: { require_sha: false } # Propietary music streaming
@@ -173,11 +180,14 @@ cask 'audiobook-builder' 			# Turn audio CDs and files into audiobooks
 cask 'avg-antivirus'				# Antivirus software
 cask 'balenaetcher'					# Tool to flash OS images to SD cards & USB drives
 cask 'battery-buddy'				# Replacement of the default battery indicator in the menu bar
+cask 'bettertouchtool'				# Tool to customize input devices and automate computer systems
 
 # Browsers
 cask 'firefox'
 cask 'chromium'
 cask 'orion'
+cask 'brave-browser'
+cask 'duckduckgo'
 
 #############################################################
 # MacOS-Specific Stuff                                      #
@@ -222,8 +232,12 @@ cask 'stats'          # System resource usage in menubar
 brew 'yabai'          # Tiling window manager
 
 # Mac OS Utility Apps
-cask 'coteditor'      # Just a simple plain-text editor
-cask 'little-snitch'  # Firewall app viewing / blocking traffic
-cask 'keka'           # File archiver and extractor
+cask 'coteditor'      		# Just a simple plain-text editor
+cask 'little-snitch'  		# Firewall app viewing / blocking traffic
+cask 'keka'           		# File archiver and extractor
+cask 'disk-inventory-x' 	# Disk usage utility
+cask 'find-empty-folders'	# Finds empty folders
+cask 'findergo'				# Open terminal quickly from Finder | https://github.com/onmyway133/FinderGo
+cask 'gdisk' 				# Disk partitioning tool | https://sourceforge.net/projects/gptfdisk/
 
 # EOF
