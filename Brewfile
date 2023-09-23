@@ -143,29 +143,6 @@ brew 'scrcpy'         # Display and control Android devices
 brew 'terminal-notifier' # Trigger Mac notifications from terminal
 brew 'tig'            # Text-mode interface for git
 
-# Network and Security Testing
-brew 'bettercap'      # Network, scanning and monitoring
-brew 'nmap'           # Port scanning
-brew 'wrk'            # HTTP benchmarking
-cask 'burp-suite'     # Web security testing
-cask 'owasp-zap'      # Web app security scanner
-cask 'wireshark'      # Network analyzer + packet capture
-
-# Security Utilities and Data Encryption
-brew 'bcrypt'         # Encryption utility, using blowfish
-brew 'borgbackup'     # Encrypted, deduplicated backups
-brew 'clamav'         # Open source virus scanning suite
-brew 'dnscrypt-proxy' # Proxy for using encrypted DNS
-cask 'gpg-suite'      # PGP encryption for emails and files
-brew 'git-crypt'      # Transparent encryption for git repos
-brew 'lynis'          # Scan system for common security issues
-brew 'openssl'        # Cryptography and SSL/TLS Toolkit
-brew 'rkhunter'       # Search / detect potential root kits
-cask 'veracrypt'      # File and volume encryption
-
-# Security & Pen Testing 
-cask 'creepy' Geolocation OSINT tool
-
 #############################################################
 # Desktop Applications                                      #
 #############################################################
@@ -269,5 +246,33 @@ cask 'find-empty-folders'	# Finds empty folders
 cask 'findergo'				# Open terminal quickly from Finder | https://github.com/onmyway133/FinderGo
 cask 'gdisk' 				# Disk partitioning tool | https://sourceforge.net/projects/gptfdisk/
 cask 'uninstallpkg'			# PKG software package uninstall tool | https://www.corecode.io/uninstallpkg/
+
+#############################################################
+# Network and Security Stuff (MR)                           #
+#############################################################
+
+# Network and Security Testing
+brew 'bettercap'      # Network, scanning and monitoring
+brew 'nmap'           # Port scanning
+brew 'wrk'            # HTTP benchmarking
+cask 'burp-suite'     # Web security testing
+cask 'owasp-zap'      # Web app security scanner
+cask 'wireshark'      # Network analyzer + packet capture
+
+# Security Utilities and Data Encryption
+brew 'bcrypt'        	# Encryption utility, using blowfish
+brew 'borgbackup'    	# Encrypted, deduplicated backups
+brew 'clamav'        	# Open source virus scanning suite
+brew 'dnscrypt-proxy'	# Proxy for using encrypted DNS
+cask 'gpg-suite'     	# PGP encryption for emails and files
+brew 'git-crypt'     	# Transparent encryption for git repos
+brew 'lynis'         	# Scan system for common security issues
+brew 'openssl'       	# Cryptography and SSL/TLS Toolkit
+brew 'rkhunter'      	# Search / detect potential root kits
+cask 'veracrypt'     	# File and volume encryption
+cask 'tor-browser'		# Web browser focusing on security | https://www.torproject.org/
+
+# Security & Pen Testing 
+cask 'creepy' Geolocation OSINT tool
 
 # EOF
