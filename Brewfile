@@ -119,6 +119,12 @@ brew "carthage"     		# Xcode dependencies management
 brew "copilot"				# Github copilot
 cask 'copilot-for-xcode'	# Xcode extension for Github Copilot
 cask 'devcleaner'			# Reclaim tens of gigabytes of your storage used for various Xcode cache
+cask 'firebase-admin'		# https://firebaseadmin.com/
+cask 'github'				# Desktop client for GitHub repositories
+cask 'xcodes'     			# Install and switch between multiple versions of Xcode | https://github.com/RobotsAndPencils/XcodesApp
+cask "mockoon"				# Design and run mock REST APIs
+cask "periphery"
+cask 'wwdc'					# Allows access to WWDC livestreams, videos and sessions | https://wwdc.io/	
 
 
 # Blockchain Development 
@@ -167,15 +173,21 @@ cask 'creepy' Geolocation OSINT tool
 # Creativity
 cask 'figma' 
 cask 'figmadaemon' 
-cask 'netdownloadhelpercoapp' # Allows video downloads from the Web | https://www.downloadhelper.net/install-coapp
+cask 'netdownloadhelpercoapp' 	# Allows video downloads from the Web | https://www.downloadhelper.net/install-coapp
+cask 'yousician'					# Musical instrument learning tool | https://yousician.com/
 
 # Media
-cask 'spotify', args: { require_sha: false } # Propietary music streaming
-brew 'pandoc'       # Universal file converter
+cask 'spotify', args: { require_sha: false } 	# Propietary music streaming
+brew 'pandoc'       							# Universal file converter
+cask 'youtube-downloader' # Simple menu bar app to download YouTube movies | https://github.com/DenBeke/YouTube-Downloader-for-macOS
+cask 'youtube-to-mp3'		# Downloads music from playlists or channels | https://www.mediahuman.net/youtube-to-mp3/
+cask 'ytmdesktop-youtube-music'					# YouTube music client | https://github.com/ytmdesktop/ytmdesktop
 
 # Personal Applications
 cask 'standard-notes' 				# Encrypted synced notes
 cask 'ledger-live'    				# Crypto hardware wallet manager
+cask 'trezor-suite'					# Companion app for the Trezor hardware wallet | https://suite.trezor.io/
+cask 'trezor-bridge'					# Facilitates communication between the Trezor device and supported browsers | https://wallet.trezor.io/
 cask 'authy' 						# Two-factor authentication software
 cask 'mountain-duck'  				# Mount remote storage locations
 cask 'protonmail-bridge' 			# Decrypt ProtonMail emails
@@ -186,6 +198,10 @@ cask 'balenaetcher'					# Tool to flash OS images to SD cards & USB drives
 cask 'battery-buddy'				# Replacement of the default battery indicator in the menu bar
 cask 'bettertouchtool'				# Tool to customize input devices and automate computer systems
 cask 'google-drive'					# 
+cask 'vitamin-r'					# Collection of productivity tools and techniques | https://www.publicspace.net/Vitamin-R/
+
+# Productivity Apps
+cask 'vym' 							# Generate and manipulate maps which show your thoughts | https://sourceforge.net/projects/vym/
 
 # Browsers
 cask 'firefox'
@@ -195,6 +211,12 @@ cask 'brave-browser'
 cask 'duckduckgo'
 cask 'google-chrome'
 cask 'webtorrent' 
+
+# Optionals 
+cask 'taskpaper' 					# App to make lists and help with organization | https://www.taskpaper.com/
+
+# Just for fun 
+cask 'windows95' 						# Electron Windows 95 | https://github.com/felixrieseberg/windows95
 
 #############################################################
 # MacOS-Specific Stuff                                      #
@@ -246,5 +268,6 @@ cask 'disk-inventory-x' 	# Disk usage utility
 cask 'find-empty-folders'	# Finds empty folders
 cask 'findergo'				# Open terminal quickly from Finder | https://github.com/onmyway133/FinderGo
 cask 'gdisk' 				# Disk partitioning tool | https://sourceforge.net/projects/gptfdisk/
+cask 'uninstallpkg'			# PKG software package uninstall tool | https://www.corecode.io/uninstallpkg/
 
 # EOF

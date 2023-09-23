@@ -78,7 +78,8 @@ cask 'firebase-admin'		# https://firebaseadmin.com/
 cask 'github'				# Desktop client for GitHub repositories
 cask 'xcodes'     			# Download, extract and install Xcode through CLI
 cask "mockoon"				# Design and run mock REST APIs
-cask "periphery"	
+cask "periphery"
+cask 'wwdc'					# Allows access to WWDC livestreams, videos and sessions | https://wwdc.io/	
 
 # Development Langs, Compilers, Package Managers and SDKs
 brew 'openjdk'        # Java development kit
