@@ -107,9 +107,21 @@ cask 'bettertouchtool'				# Tool to customize input devices and automate compute
 cask 'vitamin-r'					# Collection of productivity tools and techniques | https://www.publicspace.net/Vitamin-R/
 cask 'tomatobar'					# Menu bar pomodoro timer | https://github.com/ivoronin/TomatoBar
 cask 'todoist'						# To-do list | https://todoist.com/home
-#cask 'taskwarrior-pomodoro'			# Taskwarrior-Pomodoro | https://github.com/coddingtonbear/taskwarrior-pomodoro | $iForeked
-brew 'taskwarrior-tui'				# Terminal user interface for taskwarrior | https://github.com/kdheepak/taskwarrior-tui
 
+# CLI Productivity Apps
+brew 'aspell'       	# Spell check
+brew 'buku'         	# Bookmark manager
+brew 'cmus'         	# Music player
+brew 'cointop'      	# Crypto prices and portfolio
+brew 'ddgr'         	# Web search, via DuckDuckGo
+brew 'khal'         	# Calendar client
+brew 'mutt'         	# Email client
+brew 'newsboat'     	# RSS / ATOM reader
+brew 'pass'         	# Password store
+brew 'rclone'       	# Manage cloud storage
+brew 'task'         	# Todo + task management
+brew 'tasksh'			# Shell wrapper for Taskwarrior commands | https://gothenburgbitfactory.org/projects/tasksh.html
+brew 'taskwarrior-tui'	# Terminal user interface for taskwarrior | https://github.com/kdheepak/taskwarrior-tui
 
 # Media
 cask 'spotify', args: { require_sha: false } # Propietary music streaming

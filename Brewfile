@@ -62,20 +62,6 @@ brew 'goaccess'     # Web log analyzer and viewer
 brew 'gping'        # Interactive ping tool, with graph
 brew 'speedtest-cli'# Command line speed test utility
 
-# CLI Productivity Apps
-brew 'aspell'       # Spell check
-brew 'browsh'       # Web browser, in terminal
-brew 'buku'         # Bookmark manager
-brew 'cmus'         # Music player
-brew 'cointop'      # Crypto prices and portfolio
-brew 'ddgr'         # Web search, via DuckDuckGo
-brew 'khal'         # Calendar client
-brew 'mutt'         # Email client
-brew 'newsboat'     # RSS / ATOM reader
-brew 'pass'         # Password store
-brew 'rclone'       # Manage cloud storage
-brew 'task'         # Todo + task management
-
 # CLI Development Suits
 brew 'httpie'       # HTTP / API testing testing client
 brew 'lazydocker'   # Full Docker management app
@@ -125,6 +111,10 @@ cask 'xcodes'     			# Install and switch between multiple versions of Xcode | h
 cask "mockoon"				# Design and run mock REST APIs
 cask "periphery"
 cask 'wwdc'					# Allows access to WWDC livestreams, videos and sessions | https://wwdc.io/	
+cask 'swiftformat-for-xcode'	# Xcode Extension for reformatting Swift code | https://github.com/nicklockwood/SwiftFormat
+cask 'simsim'				# Tool to explore iOS application folders in Terminal or Finder | https://github.com/dsmelov/simsim/
+cask 'sf-symbols'			# Tool that provides consistent, highly configurable symbols for apps
+
 
 
 # Blockchain Development 
@@ -174,6 +164,9 @@ cask 'trezor-suite'					# Companion app for the Trezor hardware wallet | https:/
 cask 'trezor-bridge'				# Facilitates communication between the Trezor device and supported browsers | https://wallet.trezor.io/
 cask 'authy' 						# Two-factor authentication software
 
+#############################################################
+# Productivuty Applications                                 #
+#############################################################
 # Productivity Apps
 cask 'vym' 							# Generate and manipulate maps which show your thoughts | https://sourceforge.net/projects/vym/
 cask 'bettertouchtool'				# Tool to customize input devices and automate computer systems
@@ -181,7 +174,22 @@ cask 'vitamin-r'					# Collection of productivity tools and techniques | https:/
 cask 'tomatobar'					# Menu bar pomodoro timer | https://github.com/ivoronin/TomatoBar
 cask 'todoist'						# To-do list | https://todoist.com/home
 #cask 'taskwarrior-pomodoro'			# Taskwarrior-Pomodoro | https://github.com/coddingtonbear/taskwarrior-pomodoro | $iForeked
-brew 'taskwarrior-tui'				# Terminal user interface for taskwarrior | https://github.com/kdheepak/taskwarrior-tui
+
+
+# CLI Productivity Apps
+brew 'aspell'       	# Spell check
+brew 'buku'         	# Bookmark manager
+brew 'cmus'         	# Music player
+brew 'cointop'      	# Crypto prices and portfolio
+brew 'ddgr'         	# Web search, via DuckDuckGo
+brew 'khal'         	# Calendar client
+brew 'mutt'         	# Email client
+brew 'newsboat'     	# RSS / ATOM reader
+brew 'pass'         	# Password store
+brew 'rclone'       	# Manage cloud storage
+brew 'task'         	# Todo + task management
+brew 'tasksh'			# Shell wrapper for Taskwarrior commands | https://gothenburgbitfactory.org/projects/tasksh.html
+brew 'taskwarrior-tui'	# Terminal user interface for taskwarrior | https://github.com/kdheepak/taskwarrior-tui
 
 # System 
 cask 'taskexplorer'					# Tool to explore all the running tasks (processes) | https://objective-see.com/products/taskexplorer.html
@@ -286,6 +294,6 @@ cask 'protonmail-bridge' 		# Decrypt ProtonMail emails
 cask 'protonvpn'      			# Client app for ProtonVPN
 
 # Security & Pen Testing 
-cask 'creepy' Geolocation OSINT tool
+cask 'creepy' # Geolocation OSINT tool
 
 # EOF
