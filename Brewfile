@@ -114,11 +114,16 @@ cask 'wwdc'					# Allows access to WWDC livestreams, videos and sessions | https
 cask 'swiftformat-for-xcode'	# Xcode Extension for reformatting Swift code | https://github.com/nicklockwood/SwiftFormat
 cask 'simsim'				# Tool to explore iOS application folders in Terminal or Finder | https://github.com/dsmelov/simsim/
 cask 'sf-symbols'			# Tool that provides consistent, highly configurable symbols for apps
+cask 'rapidapi'				# HTTP client that helps testing and describing APIs | https://paw.cloud/
+cask 'proxyman'				# HTTP debugging proxy | https://proxyman.io/
 
+#### Paid 
+#cask 'reveal'				# Powerful runtime view debugging for iOS developers | https://revealapp.com/
 
 
 # Blockchain Development 
 cask 'ganache'				# Personal blockchain for Ethereum development
+cask 'remix-ide'			# Desktop version of Remix web IDE used for Ethereum smart contract development | https://remix-project.org/
 
 # Development Langs, Compilers, Package Managers and SDKs
 brew 'node'           # Node.js
@@ -126,12 +131,21 @@ brew 'nvm'            # Switching node versions
 brew 'openjdk'        # Java development kit
 brew 'python'         # Python interpreter
 
+# Other Dev Tools 
+cask 'react-studio'			# App design environment | https://reactstudio.com/
+cask 'react-native-debugger' 	# Standalone app for debugging React Native apps | https://github.com/jhen0409/react-native-debugger
+
 # Development Utils
-brew 'gh'             # Interact with GitHub PRs, issues, repos
-brew 'git-extras'     # Extra git commands for common tasks
-brew 'scrcpy'         # Display and control Android devices
-brew 'terminal-notifier' # Trigger Mac notifications from terminal
-brew 'tig'            # Text-mode interface for git
+brew 'gh'             		# Interact with GitHub PRs, issues, repos
+brew 'git-extras'     		# Extra git commands for common tasks
+brew 'scrcpy'         		# Display and control Android devices
+brew 'terminal-notifier' 	# Trigger Mac notifications from terminal
+brew 'tig'            		# Text-mode interface for git
+cask 'open-in-code'			# Finder toolbar app to open current folder in Visual Studio Code | https://github.com/sozercan/OpenInCode
+cask 'obsidian'				# Knowledge base that works on top of a local folder of plain text Markdown files | https://obsidian.md/
+cask 'nslogger'				# Modern, flexible logging tool | https://github.com/fpillet/NSLogger
+cask 'nsregextester'			# Regex tester | https://github.com/aaronvegh/nsregextester
+cask 'markdownmdimporter'	# Markdown Spotlight Plugin | https://brettterpstra.com/2011/10/18/fixing-spotlight-indexing-of-markdown-content/
 
 #############################################################
 # Desktop Applications                                      #
@@ -145,6 +159,9 @@ cask 'yousician'					# Musical instrument learning tool | https://yousician.com/
 
 # Media
 cask 'spotify', args: { require_sha: false } 	# Propietary music streaming
+cask 'plexamp'									# Music player focusing on visuals | https://plexamp.com/
+cask 'plex-media-player' 						# Home media player | https://www.plex.tv/
+cask 'plex'										# Home media player | https://www.plex.tv/
 brew 'pandoc'       							# Universal file converter
 cask 'youtube-downloader' # Simple menu bar app to download YouTube movies | https://github.com/DenBeke/YouTube-Downloader-for-macOS
 cask 'youtube-to-mp3'		# Downloads music from playlists or channels | https://www.mediahuman.net/youtube-to-mp3/
@@ -157,6 +174,7 @@ cask 'avg-antivirus'				# Antivirus software
 cask 'balenaetcher'					# Tool to flash OS images to SD cards & USB drives
 cask 'google-drive'					# 
 cask 'torguard'						# VPN client | https://torguard.net/
+cask 'openvpn-connect'				# Client program for the OpenVPN Access Server | https://openvpn.net/client-connect-vpn-for-mac-os/
 
 ## Personal Applications > Crypto related
 cask 'ledger-live'    				# Crypto hardware wallet manager
@@ -173,8 +191,10 @@ cask 'bettertouchtool'				# Tool to customize input devices and automate compute
 cask 'vitamin-r'					# Collection of productivity tools and techniques | https://www.publicspace.net/Vitamin-R/
 cask 'tomatobar'					# Menu bar pomodoro timer | https://github.com/ivoronin/TomatoBar
 cask 'todoist'						# To-do list | https://todoist.com/home
-#cask 'taskwarrior-pomodoro'			# Taskwarrior-Pomodoro | https://github.com/coddingtonbear/taskwarrior-pomodoro | $iForeked
-
+#cask 'taskwarrior-pomodoro'		# Taskwarrior-Pomodoro | https://github.com/coddingtonbear/taskwarrior-pomodoro | $iForeked
+cask 'rescuetime'					# Time optimising application | https://www.rescuetime.com/
+# cask reminders-menubar			# Simple menu bar app to view and interact with reminders | https://github.com/DamascenoRafael/reminders-menubar
+cask 'raycast'						# Control your tools with a few keystrokes | https://raycast.com/
 
 # CLI Productivity Apps
 brew 'aspell'       	# Spell check
@@ -190,9 +210,13 @@ brew 'rclone'       	# Manage cloud storage
 brew 'task'         	# Todo + task management
 brew 'tasksh'			# Shell wrapper for Taskwarrior commands | https://gothenburgbitfactory.org/projects/tasksh.html
 brew 'taskwarrior-tui'	# Terminal user interface for taskwarrior | https://github.com/kdheepak/taskwarrior-tui
+cask 'mtmr'				# TouchBar customization app | 	https://github.com/Toxblh/MTMR
+cask 'monofocus'			# Keep all tasks from your todo apps on your menu bar | https://monofocus.app/
 
 # System 
 cask 'taskexplorer'					# Tool to explore all the running tasks (processes) | https://objective-see.com/products/taskexplorer.html
+cask 'memory-cleaner'				# Free up RAM manually and automatically | https://nektony.com/memory-cleaner
+cask 'macfuse'						# File system integration | https://osxfuse.github.io/
 
 # Browsers
 cask 'firefox'
@@ -202,6 +226,9 @@ cask 'brave-browser'
 cask 'duckduckgo'
 cask 'google-chrome'
 cask 'webtorrent' 
+
+# SEO 
+#cask 'screaming-frog-seo-spider'
 
 # Coomunication 
 cask 'slack'			# Team communication and collaboration software | https://slack.com/

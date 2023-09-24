@@ -32,7 +32,7 @@ install_homebrew () {
 }
 
 download_brewfile () {
-  echo -en "\n📥  ${HEADING_COLOR}Downloading Brewfile${RESET}\n"
+  echo -en "\n⬇️  ${HEADING_COLOR}Downloading Brewfile (\n$REMOTE_BREWFILE)${RESET}\n"
   if hash "curl" 2> /dev/null; then
     curl -o $BREWFILE_LOCATION  $REMOTE_BREWFILE
   elif hash "wget" 2> /dev/null; then
@@ -129,8 +129,8 @@ fi
 
 # Print finishing off message
 echo -e "\n✅ ${HEADING_COLOR}Tasks completed sucesfully in $((`date +%s`-START_TIME)) seconds${RESET}"
-echo -e "\x1b[2m\n.~~~~.\n\033[0;33m\x1b[2mi====i_\n|cccc|_)\n|cccc|\n\`-==-'\n${RESET}"
-echo -e "\033[0;33m\x1b[2mThank you for using Lissy93/Brewfile${RESET}"
+echo -e "\x1b[2m ____________________________ \n< Thank you for using script >\n ---------------------------- \n        \   ^__^\n         \  (oo)\_______\n            (__)\       )\/\\n                ||----w |\n                ||     ||\n"
+echo -e "\033[0;33m\x1b[2m<github.com/alokc83/dev-setup>${RESET}"
 unset PROMPT_TIMEOUT
 unset REPLY
 
