@@ -116,9 +116,11 @@ cask 'simsim'				# Tool to explore iOS application folders in Terminal or Finder
 cask 'sf-symbols'			# Tool that provides consistent, highly configurable symbols for apps
 cask 'rapidapi'				# HTTP client that helps testing and describing APIs | https://paw.cloud/
 cask 'proxyman'				# HTTP debugging proxy | https://proxyman.io/
+cask 'json-viewer'			# App to visualize, validate and format JSON datasets | https://jsonviewer.app/
 
 #### Paid 
 #cask 'reveal'				# Powerful runtime view debugging for iOS developers | https://revealapp.com/
+cask 'little-snitch' 			# Host-based application firewall | https://www.obdev.at/products/littlesnitch/index.html
 
 
 # Blockchain Development 
@@ -166,6 +168,7 @@ brew 'pandoc'       							# Universal file converter
 cask 'youtube-downloader' # Simple menu bar app to download YouTube movies | https://github.com/DenBeke/YouTube-Downloader-for-macOS
 cask 'youtube-to-mp3'		# Downloads music from playlists or channels | https://www.mediahuman.net/youtube-to-mp3/
 cask 'ytmdesktop-youtube-music'					# YouTube music client | https://github.com/ytmdesktop/ytmdesktop
+cask 'jellyfin-media-player'						# Jellyfin desktop client | https://jellyfin.org/
 
 # Personal Applications
 cask 'mountain-duck'  				# Mount remote storage locations
@@ -175,6 +178,7 @@ cask 'balenaetcher'					# Tool to flash OS images to SD cards & USB drives
 cask 'google-drive'					# 
 cask 'torguard'						# VPN client | https://torguard.net/
 cask 'openvpn-connect'				# Client program for the OpenVPN Access Server | https://openvpn.net/client-connect-vpn-for-mac-os/
+cask 'kindle'							# Interface for reading and syncing eBooks | https://www.amazon.com/gp/digital/fiona/kcp-landing-page
 
 ## Personal Applications > Crypto related
 cask 'ledger-live'    				# Crypto hardware wallet manager
@@ -195,6 +199,7 @@ cask 'todoist'						# To-do list | https://todoist.com/home
 cask 'rescuetime'					# Time optimising application | https://www.rescuetime.com/
 # cask reminders-menubar			# Simple menu bar app to view and interact with reminders | https://github.com/DamascenoRafael/reminders-menubar
 cask 'raycast'						# Control your tools with a few keystrokes | https://raycast.com/
+cask 'a-better-finder-rename'		# Renamer for files, music and photos | https://www.publicspace.net/ABetterFinderRename/
 
 # CLI Productivity Apps
 brew 'aspell'       	# Spell check
