@@ -216,12 +216,13 @@ brew 'task'         	# Todo + task management
 brew 'tasksh'			# Shell wrapper for Taskwarrior commands | https://gothenburgbitfactory.org/projects/tasksh.html
 brew 'taskwarrior-tui'	# Terminal user interface for taskwarrior | https://github.com/kdheepak/taskwarrior-tui
 cask 'mtmr'				# TouchBar customization app | 	https://github.com/Toxblh/MTMR
-cask 'monofocus'			# Keep all tasks from your todo apps on your menu bar | https://monofocus.app/
+cask 'monofocus'		# Keep all tasks from your todo apps on your menu bar | https://monofocus.app/
 
 # System 
-cask 'taskexplorer'					# Tool to explore all the running tasks (processes) | https://objective-see.com/products/taskexplorer.html
-cask 'memory-cleaner'				# Free up RAM manually and automatically | https://nektony.com/memory-cleaner
-cask 'macfuse'						# File system integration | https://osxfuse.github.io/
+cask 'taskexplorer'		# Tool to explore all the running tasks (processes) | https://objective-see.com/products/taskexplorer.html
+cask 'memory-cleaner'	# Free up RAM manually and automatically | https://nektony.com/memory-cleaner
+cask 'macfuse'			# File system integration | https://osxfuse.github.io/
+cask 'maccleaner-pro'	# An all-in-one software solution to clean up Mac hard drive, manage disk space usage and optimize the system’s performance.
 
 # Browsers
 cask 'firefox'

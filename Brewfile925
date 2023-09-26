@@ -115,8 +115,8 @@ brew 'task'         	# Todo + task management
 brew 'tasksh'			# Shell wrapper for Taskwarrior commands | https://gothenburgbitfactory.org/projects/tasksh.html
 
 # Media
-cask 'spotify', args: { require_sha: false } # Propietary music streaming
-brew 'pandoc'       # Universal file converter
+#cask 'spotify', args: { require_sha: false } # Propietary music streaming
+#brew 'pandoc'       # Universal file converter
 
 # Browsers
 cask 'firefox'
